@@ -397,7 +397,7 @@ async def test_bedrock():
 if __name__ == "__main__":
     import asyncio
         
-    test_success = asyncio.run(test_bedrock())
+    test_success = asyncio.run(test_openrouter())
     
     if test_success:
         print("\n✅ integration test completed successfully!")
